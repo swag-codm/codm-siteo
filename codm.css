@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("/download.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  backdrop-filter: blur(5px);
+}
+
+.auth-box {
+  background-color: rgba(25, 25, 25, 0.9);
+  padding: 30px 40px;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+.logo img {
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #f1c40f;
+  margin-bottom: 20px;
+  font-size: 26px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.input-field {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.input-field label {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.input-field input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2b2b2b;
+  color: #fff;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+
+.input-field input:focus {
+  background-color: #444;
+  outline: none;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #f1c40f;
+  border: none;
+  border-radius: 5px;
+  color: #111;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #f39c12;
+}
+
+.links {
+  margin-top: 15px;
+}
+
+.links a {
+  color: #f1c40f;
+  text-decoration: none;
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.links p {
+  color: #ccc;
+  font-size: 13px;
+  margin-top: 10px;
+}
+
